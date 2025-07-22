@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const REGISTER_URL = 'http://parcial2arsw-eudhbgfxhqh8ccab.canadacentral-01.azurewebsites.net/status';
+const REGISTER_URL = 'https://parcial2arsw-eudhbgfxhqh8ccab.canadacentral-01.azurewebsites.net/status';
 
 export default function WeatherData() {
   const [city, setCity] = useState("");
